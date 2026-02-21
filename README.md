@@ -1,2 +1,2 @@
-# vantafold.github.io
-Website
+# VantaFold
+
