@@ -12,6 +12,10 @@ dist
 dist-ssr
 *.local
 
+# Local verification artifacts
+screenshots/
+scripts/capture-cdp.ps1
+
 # Editor directories and files
 .vscode/*
 !.vscode/extensions.json

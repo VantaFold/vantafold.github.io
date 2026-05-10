@@ -4,48 +4,154 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description"
+    content="VantaFold is an early-stage independent AI research lab exploring efficient deep learning methods, compact architectures, and low-compute machine learning systems." />
+  <meta name="theme-color" content="#050505" />
   <title>VantaFold</title>
   <link rel="stylesheet" href="/src/style.css">
 </head>
 
 <body>
+  <span id="top" class="page-top" aria-hidden="true"></span>
   <div id="app">
-    <main class="container">
-      <header>
-        <span class="just-starting"><em>just starting...</em></span>
-        <h1>VantaFold</h1>
-      </header>
+    <header class="site-header" aria-label="Site header">
+      <a class="brand" href="#top" data-home-link aria-label="VantaFold home">
+        <img class="brand-logo" src="/brand/VFsmall.png" alt="" width="34" height="34">
+        <span>VantaFold</span>
+      </a>
 
-      <section class="content">
-        <p>
-          At VantaFold, the focus is on designing highly efficient deep learning methods and architectures, exploring
-          ways to match the capabilities of much heavier counterparts. This aims to ensure that new student researchers
-          can rely on innovative architectures and methods, rather than being gated by the need for extreme computing
-          power.
-        </p>
-        <p>
-          Beyond efficiency, there is a strong interest in "fun ML" building creative and unorthodox applications of
-          machine learning while keeping the computational footprint minimal.
-        </p>
-        <p class="initiative-note">
-          Currently, VantaFold is an individual initiative. It represents an approach to start structuring ideas and
-          experiments. There are no guarantees on specific outcomes, it's a challenge to see how these methods hold up
-          in
-          practice.
-          The long-term goal is to build a foundation that might one day grow into collaborative research projects.
-        </p>
+      <nav class="site-nav" aria-label="Primary navigation">
+        <a href="#focus">Focus</a>
+        <a href="#stage">Stage</a>
+        <a href="#notes">Notes</a>
+        <a href="/about.html">About</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="home-hero" aria-labelledby="hero-title">
+        <div class="hero-grid page-shell">
+          <div class="hero-copy">
+            <p class="eyebrow">Independent AI research lab</p>
+            <h1 id="hero-title">VantaFold</h1>
+            <p>
+              Exploring efficient deep learning methods, compact architectures, and low-compute machine learning
+              systems.
+            </p>
+          </div>
+
+          <div class="hero-visual" aria-hidden="true">
+            <canvas id="signal-canvas" width="900" height="900"></canvas>
+          </div>
+        </div>
       </section>
 
-      <footer class="site-footer">
-        <div class="glass-copyright">
-          &copy; 2026 VantaFold
+      <section class="lead-section" aria-labelledby="lead-title">
+        <div class="page-shell">
+          <p class="section-label">Purpose</p>
+          <h2 id="lead-title">
+            Exploring whether careful methods can make serious ML experimentation less dependent on extreme compute.
+          </h2>
         </div>
-        <div class="last-updated">
-          last updated: feb 2026
+      </section>
+
+      <section class="focus-section" id="focus" aria-labelledby="focus-title">
+        <div class="page-shell">
+          <div class="section-head">
+            <p class="section-label">Focus</p>
+            <h2 id="focus-title">The current direction is small, practical, and experimental.</h2>
+          </div>
+
+          <div class="feature-list">
+            <article>
+              <span>01</span>
+              <h3>Efficient methods</h3>
+              <p>
+                Designing and testing deep learning methods that aim to approach heavier counterparts with fewer
+                resources.
+              </p>
+            </article>
+            <article>
+              <span>02</span>
+              <h3>Accessible research</h3>
+              <p>
+                Looking for ideas that let new student researchers experiment through better architectures and methods,
+                not only larger hardware.
+              </p>
+            </article>
+            <article>
+              <span>03</span>
+              <h3>Fun ML</h3>
+              <p>
+                Building creative, unorthodox machine learning experiments while keeping the computational footprint
+                minimal.
+              </p>
+            </article>
+          </div>
         </div>
-      </footer>
+      </section>
+
+      <section class="stage-section" id="stage" aria-labelledby="stage-title">
+        <div class="page-shell stage-shell">
+          <div class="stage-copy">
+            <p class="section-label">Stage</p>
+            <h2 id="stage-title">Early-stage research effort. Practical experiments.</h2>
+          </div>
+          <div class="stage-note">
+            <p>
+              VantaFold is building a structured base for methods, prototypes, and technical notes. There are no
+              guarantees on specific outcomes; the challenge is to see how these ideas hold up in practice.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section class="standard-section" id="notes" aria-labelledby="notes-title">
+        <div class="page-shell">
+          <div class="section-head">
+            <p class="section-label">Notes</p>
+            <h2 id="notes-title">A modest public surface for work that is still forming.</h2>
+          </div>
+
+          <div class="standard-grid">
+            <article>
+              <h3>No claims yet</h3>
+              <p>Results should come after experiments, not before them.</p>
+            </article>
+            <article>
+              <h3>No product page</h3>
+              <p>This is not a launch, catalog, or promise of finished software.</p>
+            </article>
+            <article>
+              <h3>Long-term direction</h3>
+              <p>The hope is to build a foundation that can grow into collaborative research projects.</p>
+            </article>
+          </div>
+        </div>
+      </section>
     </main>
+
+    <footer class="site-footer">
+      <div class="footer-main">
+        <a class="brand" href="#top" data-home-link aria-label="VantaFold home">
+          <img class="brand-logo" src="/brand/VFsmall.png" alt="" width="34" height="34">
+          <span>VantaFold</span>
+        </a>
+
+        <nav class="footer-nav" aria-label="Footer navigation">
+          <a href="#focus">Focus</a>
+          <a href="#stage">Stage</a>
+          <a href="#notes">Notes</a>
+          <a href="/about.html">About</a>
+        </nav>
+      </div>
+
+      <div class="footer-bottom">
+        <p>&copy; 2026 VantaFold</p>
+      </div>
+    </footer>
   </div>
+
   <script type="module" src="/src/main.js"></script>
 </body>
 
